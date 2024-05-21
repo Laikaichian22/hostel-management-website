@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+h2{
+    text-align: center;
+}
+
+
+  .form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .formTable {
+    width: 100%;
+    border: 2px solid lightgreen;
+  }
+  
+  .formTable td {
+    padding: 10px;
+  }
+  
+  .formTable input[type="text"],
+  .formTable input[type="date"],
+  .formTable select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form_below {
+    margin-top: 20px;
+  }
+  
+
+  #title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+

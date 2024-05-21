@@ -1,0 +1,66 @@
+body{
+    margin:0px;
+    background-size:100% 100%;
+}
+  
+.delete_form_table {
+    margin: 0 auto; 
+    margin-bottom: 55px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    max-width: 500px;
+}
+    
+.delete_form_table form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 45px;
+}
+    
+.delete_form_table label {
+    margin-bottom: 10px;
+}
+  
+.delete_form_table input[type="radio"] {
+    margin-right: 5px;
+}
+  
+.delete_form_table input[type="submit"] {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+  
+.delete_form_table input[type="submit"]:hover {
+    background-color: #45a049;
+}
+  
+input[type=submit].back_btn {
+    margin-left: 5px;
+    padding: 10px 10px;
+    background-color: #650ea8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+    
+.delete{
+    text-align: center;
+    margin: 190px auto;
+    font-size: 24px;
+}
+    
+  
+    
+  
+    
+  
+    
+    

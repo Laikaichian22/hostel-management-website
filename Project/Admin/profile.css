@@ -1,0 +1,75 @@
+.profile_list 
+{
+    margin: 0 auto; 
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed lightgreen;
+    height: 450px;
+    margin-bottom: 65px;
+}
+  
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+tr, td{
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black; 
+}
+
+input[type="submit"].edit_btn{
+    padding: 5px 15px;
+    background-color: #0077ff;
+    color: white;
+    border: none;
+   
+    border-radius: 10px;
+    cursor: pointer;
+}
+input[type="submit"].edit_btn:hover{
+    box-shadow: 0 0 20px 0 rgb(240, 251, 232), 0 5px 5px 0 rgb(180, 180, 180);
+}
+
+/*Edit profile*/
+.edit_profile{
+    margin: 0 auto; 
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed rgb(212, 49, 253);
+    height: 450px;
+    margin-bottom: 65px;
+}
+
+input[type="submit"].profile_update_button{
+    padding: 5px 15px;
+    background-color: #0077ff;
+    color: white;
+    border: none;
+   
+    border-radius: 10px;
+    cursor: pointer;
+}
+input[type="submit"].profile_update_button:hover{
+    box-shadow: 0 0 20px 0 rgb(240, 251, 232), 0 5px 5px 0 rgb(180, 180, 180);
+}
+
+
+input[type="submit"].back_btn {
+    padding: 10px 10px;
+    background-color: #650ea8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+
+  

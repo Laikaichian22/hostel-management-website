@@ -1,0 +1,43 @@
+body{
+  margin:0px;
+  background-size:100% 100%;
+}
+table {
+  border-collapse: collapse;
+  width:50%;
+  margin-left:500px;
+}
+
+th, td {
+  border: 2px solid rgb(224, 236, 55);
+  padding: 8px;
+  text-align: left;
+  text-align: center;
+}
+
+th {
+  background-color: #16d3da;
+}
+
+td{
+  background-color: #07ca31;
+}
+
+button[type="submit"]{
+  background-color: lightgreen;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type=submit].back_btn{
+  padding: 5px 10px;
+  background-color:lightgreen;
+  color: black;
+  border: solid 1px black;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-left: 740px
+}
+
+
